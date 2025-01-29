@@ -6,3 +6,17 @@ export const reverseArray = (array) => {
       reversed.push(array[i]);
     return reversed;
   }
+
+  /*
+  export const reverseAnArray = (arr) => {
+  // Write your code here
+  //arr.reverse();
+  for (let i = 0; i < arr.length / 2; i++) 
+  {
+    let temp = arr[i];
+    arr[i] = arr[arr.length - 1 - i];
+    arr[arr.length - 1 - i] = temp;
+  }
+  return arr;
+}
+  */
