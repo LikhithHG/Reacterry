@@ -18,4 +18,4 @@ export const validateStrings = (array) => {
         return false;
     }
     return true;
-  }
+}
