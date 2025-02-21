@@ -16,4 +16,4 @@ export const maxCharacters = (str) => {
       }
     }
     return maxChar;
-  }
+}
